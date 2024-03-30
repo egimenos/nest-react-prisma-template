@@ -37,7 +37,7 @@ COPY --from=turbo-build /app/apps/client/node_modules ./apps/client/node_modules
 
 EXPOSE 3000
 
-COPY start.sh ./
+COPY scripts/start.sh ./
 RUN chmod +x start.sh
 
 CMD ["./start.sh"]

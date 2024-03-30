@@ -21,6 +21,12 @@ The frontend app is setup to be served from the Nestjs server as static assets f
 
 ## Installation
 
+Generate and edit .env file
+
+```sh
+sh scripts/setup.sh
+```
+
 Install dependencies
 
 ```sh

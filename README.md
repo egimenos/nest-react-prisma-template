@@ -21,25 +21,25 @@ The frontend app is setup to be served from the Nestjs server as static assets f
 
 ## Installation
 
-Generate and edit .env file
+Generate and edit .env file:
 
 ```sh
 sh scripts/setup.sh
 ```
 
-Install dependencies
+Install dependencies:
 
 ```sh
 pnpm install
 ```
 
-Start services such as database
+Start services such as database:
 
 ```
 make start-services
 ```
 
-Make changes to the schema and run database migrations in development mode.
+Make changes to the schema and run database migrations in development mode:
 
 ```sh
 pnpm migrate
@@ -47,13 +47,13 @@ pnpm migrate
 
 ## Usage
 
-Run in development mode
+Run in development mode:
 
 ```sh
 pnpm dev
 ```
 
-Then the client and api development servers will run athe the same time.
+Then the client and api development servers will be running together.
 
 ## Contributing
 

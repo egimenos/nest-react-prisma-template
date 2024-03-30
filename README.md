@@ -1,4 +1,4 @@
-# Nest/React/Prisma teplate
+# Nest/React/Prisma template
 
 ## Description
 
@@ -52,6 +52,8 @@ Run in development mode
 ```sh
 pnpm dev
 ```
+
+Then the client and api development servers will run athe the same time.
 
 ## Contributing
 
